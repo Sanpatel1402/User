@@ -1,0 +1,75 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="figcaption" />
+            <item index="7" class="java.lang.String" itemvalue="ul" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="my_project.store.models.Product.objects" />
+          <option value="store.models.Product.objects" />
+          <option value="category.models.Category.objects" />
+          <option value="task0.models.Product.objects" />
+          <option value="object.*" />
+          <option value="django.db.models.fields.related.ForeignKey.slug" />
+          <option value="cart.models.Cart.objects" />
+          <option value="cart.models.Cart.DoesNotExist" />
+          <option value="cart.models.CartItem.objects" />
+          <option value="cart.models.CartItem.create" />
+          <option value="cart.models.CartItem.DoesNotExist" />
+          <option value="cart.views.cart.save" />
+          <option value="django.db.models.fields.related.ForeignKey.price" />
+          <option value="Accounts.views.general.POST" />
+          <option value="Accounts.views.general.method" />
+          <option value="Accounts.views.General.method" />
+          <option value="Accounts.views.General.POST" />
+          <option value="Accounts.models.general.method" />
+          <option value="Accounts.models.general.POST" />
+          <option value="user.models.general.method" />
+          <option value="user.models.general.POST" />
+          <option value="user.views.general.method" />
+          <option value="user.views.general.POST" />
+          <option value="Accounts.admin.general.method" />
+          <option value="Accounts.admin.general.POST" />
+          <option value="project.models.signup.method" />
+          <option value="project.models.signup.POST" />
+          <option value="Accounts.models.create_user.objects" />
+          <option value="Accounts.models.create_user.all" />
+          <option value="django.contrib.auth.models.User.object" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

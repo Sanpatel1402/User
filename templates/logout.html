@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block navbar %}
+
+{% endblock navbar %}
+{% block content %}
+<div class="d-flex justify-content-center align-self-center" style="height:100vh;">
+<div class="container justify-content-center align-self-center w-auto h-auto border border-3 border-primary rounded-4">
+    <br>
+      <div class="modal-body">
+        <div class="alert alert-success d-flex align-items-center" role="alert">
+  <svg role="img" width="25" height="25" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+  <div>
+    <h4 class="ms-3">you have successfully logout</h4>
+  </div>
+</div>
+      </div>
+      <div class="modal-footer">
+        <a href="{% url 'login' %}" type="button" class="btn btn-outline-success">login</a>
+      </div>
+    <br>
+        </div>
+    </div>
+{% endblock content %}

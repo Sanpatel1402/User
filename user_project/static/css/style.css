@@ -1,0 +1,28 @@
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:88vh;
+    position: relative;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, orange,white,blue,white,green, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,.01);
+}
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
